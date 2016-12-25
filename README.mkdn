@@ -1,0 +1,26 @@
+OneStep
+===========
+
+Getting Started
+---------------
+
+按此教程同步得到的是OneStep所需要的最新的OneStep源码和CM13源码(2016/12/25)
+如果你对git patch有了解，可以通过这篇文档 [传送门](https://gitlab.com/OneStep-CM13/patch) 完成类CM项目移植
+
+* 同步源码：
+
+    $ repo init -u https://gitlab.com/OneStep-CM13/android.git -m manifest.xml -b cm-13.0
+    $ repo sync -c -j16
+
+* 接下来按照相应的目录结构覆盖(先删除再拷贝)到自己同步好的CM13最新源码
+
+* 编译：
+
+    $ . build/envsetup.sh
+    $ breakfast bacon       #OnePlus One
+    $ brunch bacon
+
+鸣谢
+--------
+
+感谢锤子科技开源项目，详细文档参照 [官方](https://github.com/SmartisanTech/android)
