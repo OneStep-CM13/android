@@ -4,11 +4,11 @@ OneStep
 Getting Started
 ---------------
 
-按此教程同步得到的是OneStep所需要的最新的OneStep源码和CM13源码(2016/12/25)，如果你对git patch有了解，可以通过这篇文档 [传送门](https://gitlab.com/OneStep-CM13/patch) 完成类CM项目移植
+按此教程同步得到的是OneStep所需要的最新的OneStep源码和CM13源码(2016/12/25)，如果你对git patch有了解，可以通过这篇文档 [传送门](https://github.com/OneStep-CM13/patch) 完成类CM项目移植
 
 * 同步源码：
 ```sh
-    $ repo init -u https://gitlab.com/OneStep-CM13/android.git -m manifest.xml -b cm-13.0
+    $ repo init -u https://github.com/OneStep-CM13/android.git -m manifest.xml -b cm-13.0
     $ repo sync -c -j16
 ```
 
