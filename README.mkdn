@@ -8,8 +8,8 @@ Getting Started
 
 * 同步源码：
 ```sh
-    $ repo init -u https://github.com/OneStep-CM13/android.git -m manifest.xml -b cm-13.0
-    $ repo sync -c -j16
+    $ repo init -u https://github.com/OneStep-CM13/android.git --no-clone-bundle -m manifest.xml -b cm-13.0
+    $ repo sync -f --force-sync -c -j8 --no-clone-bundle --no-tags
 ```
 
 * 接下来按照相应的目录结构覆盖(先删除再拷贝)到自己同步好的CM13最新源码
