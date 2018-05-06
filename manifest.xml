@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote fetch="https://gitlab.com" name="gitlab" revision="cm-13.0" />
+  <remote fetch="https://github.com" name="github" revision="cm-13.0" />
 
-  <project name="OneStep-CM13/android_build" path="build" remote="gitlab" groups="pdk" >
+  <project name="OneStep-CM13/android_build" path="build" remote="github" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project name="OneStep-CM13/android_frameworks_base" path="frameworks/base" remote="gitlab" />
-  <project name="OneStep-CM13/android_frameworks_native" path="frameworks/native" remote="gitlab" />
-  <project name="OneStep-CM13/android_frameworks_smartisanos-base" path="frameworks/smartisanos-base" remote="gitlab" />
-  <project name="OneStep-CM13/android_packages_apps_OneStep" path="packages/apps/OneStep" remote="gitlab" />
-  <project name="OneStep-CM13/android_external_sepolicy" path="external/sepolicy" remote="gitlab" />
+  <project name="OneStep-CM13/android_frameworks_base" path="frameworks/base" remote="github" />
+  <project name="OneStep-CM13/android_frameworks_native" path="frameworks/native" remote="github" />
+  <project name="OneStep-CM13/android_frameworks_smartisanos-base" path="frameworks/smartisanos-base" remote="github" />
+  <project name="OneStep-CM13/android_packages_apps_OneStep" path="packages/apps/OneStep" remote="github" />
+  <project name="OneStep-CM13/android_external_sepolicy" path="external/sepolicy" remote="github" />
 
 </manifest>
